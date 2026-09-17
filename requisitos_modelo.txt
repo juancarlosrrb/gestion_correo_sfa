@@ -1,0 +1,18 @@
+# Instalar una sola vez, en el mismo Python donde ya corre el bot:
+
+# Base (ya lo tienes del proyecto actual)
+py -m pip install pywin32 pandas openpyxl pyarrow
+
+# Modelo
+py -m pip install scikit-learn scipy joblib
+
+# Barra de progreso bonita (opcional: si no esta, se usa una barra propia)
+py -m pip install tqdm
+
+# Lectura de adjuntos
+py -m pip install pymupdf            # PDF con texto (rapido)
+py -m pip install python-docx        # Word
+
+# OCR para PDF escaneados (opcional, solo si usas --ocr)
+py -m pip install easyocr pdf2image pillow
+# y Poppler en C:\poppler

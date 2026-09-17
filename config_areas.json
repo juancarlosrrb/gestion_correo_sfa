@@ -1,0 +1,21 @@
+{
+  "_instrucciones": "La llave es el correo al que tu hermano reenvia. El valor dice a que carpeta de Outlook se mueve el correo original. Agrega una linea por cada area. Los nombres de carpeta deben existir EXACTAMENTE igual en Outlook.",
+  "umbral_confianza": 0.70,
+  "areas": {
+    "correo_area_1@empresa.com": {
+      "area": "area1",
+      "carpeta": "area1",
+      "descripcion": "Ejemplo: tutelas FOMAG"
+    },
+    "correo_area_2@empresa.com": {
+      "area": "area2",
+      "carpeta": "area2",
+      "descripcion": "Ejemplo: procesos ejecutivos y embargos"
+    },
+    "correo_area_3@empresa.com": {
+      "area": "area3",
+      "carpeta": "area3",
+      "descripcion": "Ejemplo: derechos de peticion"
+    }
+  }
+}
