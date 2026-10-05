@@ -9,6 +9,8 @@ import os
 # CUENTA Y CARPETAS DE OUTLOOK
 # ----------------------------------------------------------------------
 EMAIL_OBJETIVO = "notjudicial5@fiduprevisora.com.co"
+#EMAIL_OBJETIVO = "juan_cherrerab@soy.sena.edu.co"
+
 
 CARPETA_ENVIADOS = "Elementos enviados"
 CARPETA_ENTRADA = "Bandeja de Entrada"
@@ -51,7 +53,7 @@ CARPETA_TEMP_ADJUNTOS = os.path.join(CARPETA_DATOS, "adjuntos_temp")
 # mantiene el parquet manejable sin perder senal para el modelo.
 # ----------------------------------------------------------------------
 MAX_CHARS_CUERPO = 5000          # el asunto y el arranque del cuerpo cargan casi toda la senal
-MAX_CHARS_ADJUNTOS = 8000        # texto extraido de TODOS los adjuntos de un correo, sumado
+MAX_CHARS_ADJUNTOS = 16000        # texto extraido de TODOS los adjuntos de un correo, sumado
 MAX_PAGINAS_PDF = 3              # solo las primeras paginas de cada PDF
 MAX_MB_ADJUNTO = 15              # adjuntos mas pesados que esto se saltan (solo se guarda el nombre)
 

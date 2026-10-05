@@ -1,0 +1,28 @@
+[
+  {
+    "nombre_carpeta": "2. TUTELAS FOMAG",
+    "correo_reenviar": "tutelas_fomag@fiduprevisora.com.co",
+    "carpeta_procesados": "2. PROCESADOS - TUTELAS FOMAG",
+    "palabras_clave": {
+      "regla_1": ["fomag", "fondo nacional de prestaciones sociales del magisterio", "fnpsm", "f.n.p.s.m", "fondo de prestaciones del magisterio"],
+      "regla_2": ["tutela", "acción de tutela"]
+    }
+  },
+  {
+    "nombre_carpeta": "3. NR FOMAG",
+    "correo_reenviar": "procesosjudicialesfomag1@fiduprevisora.com.co",
+    "carpeta_procesados": "3. PROCESADOS - NR FOMAG",
+    "palabras_clave":  {
+      "regla_1": ["fomag", "fondo nacional de prestaciones sociales del magisterio", "fnpsm", "f.n.p.s.m", "fondo de prestaciones del magisterio"],
+      "regla_2": ["nulidad"]
+    }
+  },
+    {
+    "nombre_carpeta": "4. PPL",
+    "correo_reenviar": "notjudicialppl158@fiduprevisora.com.co",
+    "carpeta_procesados": "4. PROCESADOS - PPL",
+    "palabras_clave":  {
+      "regla_1": ["personas privadas de la libertad", "ppl"]
+    }
+  }
+]

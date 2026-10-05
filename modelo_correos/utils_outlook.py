@@ -341,6 +341,7 @@ def extraer_correo(m, usar_ocr=False, recortar=True, leer_adjuntos=True):
     max_cuerpo = config.MAX_CHARS_CUERPO if recortar else None
 
     destinatario, destinatarios_todos = obtener_destinatarios(m)
+    print(m.Subject)
     nombres_adj, texto_adj, n_adj = procesar_adjuntos(
         m, usar_ocr=usar_ocr, leer_contenido=leer_adjuntos
     )

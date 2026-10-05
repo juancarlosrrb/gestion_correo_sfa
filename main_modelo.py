@@ -2,7 +2,7 @@
 """
 Created on Wed Feb 11 07:56:15 2026
 
-@author: USUARIO
+@author: JCHB
 """
 import time
 from correo_automation.orquestador import ejecutar_ciclo_bot

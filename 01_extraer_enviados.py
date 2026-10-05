@@ -27,15 +27,17 @@ sys.path.insert(0, ".")
 
 from correo_automation.connection import connect_outlook
 
-from modelo_correos import config
 from modelo_correos.almacenamiento import (
     cargar_base,
     guardar_base,
     ids_ya_leidos,
 )
+
+from modelo_correos import config
 from modelo_correos.progreso import barra
 from modelo_correos.utils_outlook import extraer_correo
 
+breakpoint()
 
 def leer_argumentos():
     p = argparse.ArgumentParser(description="Extrae correos enviados a la base historica.")
@@ -137,7 +139,7 @@ def main():
                 fila = extraer_correo(
                     m,
                     usar_ocr=args.ocr,
-                    recortar=True,
+                    recortar=False,
                     leer_adjuntos=not args.sin_adjuntos,
                 )
             except Exception as e:
