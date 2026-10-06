@@ -8,8 +8,8 @@ import os
 # ----------------------------------------------------------------------
 # CUENTA Y CARPETAS DE OUTLOOK
 # ----------------------------------------------------------------------
-EMAIL_OBJETIVO = "notjudicial5@fiduprevisora.com.co"
-#EMAIL_OBJETIVO = "juan_cherrerab@soy.sena.edu.co"
+#EMAIL_OBJETIVO = "notjudicial5@fiduprevisora.com.co"
+EMAIL_OBJETIVO = "juan_cherrerab@soy.sena.edu.co"
 
 
 CARPETA_ENVIADOS = "Elementos enviados"

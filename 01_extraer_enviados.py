@@ -37,11 +37,9 @@ from modelo_correos import config
 from modelo_correos.progreso import barra
 from modelo_correos.utils_outlook import extraer_correo
 
-breakpoint()
-
 def leer_argumentos():
     p = argparse.ArgumentParser(description="Extrae correos enviados a la base historica.")
-    p.add_argument("--cantidad", type=int, default=100,
+    p.add_argument("--cantidad", type=int, default=2000,
                    help="Cuantos correos NUEVOS leer en esta corrida (por defecto 100).")
     p.add_argument("--carpeta", type=str, default=config.CARPETA_ENVIADOS,
                    help='Carpeta a leer (por defecto "Elementos enviados").')
